@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 class UserManager: ObservableObject {
-//    @Published var isRegister = false
     @AppStorage("isRegister") var isRegister = false
     @AppStorage("userName")var name = ""
     

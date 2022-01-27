@@ -29,7 +29,7 @@ struct RegisterView: View {
                         }
                         text = newValue.count
                     }
-                .multilineTextAlignment(.center)
+                    .multilineTextAlignment(.center)
                 CustomTextView(text: text, color: color)
             }
             .padding()
@@ -44,15 +44,13 @@ struct RegisterView: View {
     }
     
     private func registerUser() {
-//        if !name.isEmpty {
-            userManager.name = name
-            userManager.isRegister.toggle()
-//        }
+        userManager.name = name
+        userManager.isRegister.toggle()
     }
 }
 
-struct egisterView_Previews: PreviewProvider {
+struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-            RegisterView()
+        RegisterView()
     }
 }
