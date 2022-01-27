@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B7335FD27A1B4EE0024BB36 /* Lesson_3SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7335FC27A1B4EE0024BB36 /* Lesson_3SwiftUIApp.swift */; };
+		1B7335FD27A1B4EE0024BB36 /* PWrappersSUI App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7335FC27A1B4EE0024BB36 /* PWrappersSUI App.swift */; };
 		1B7335FF27A1B4EE0024BB36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7335FE27A1B4EE0024BB36 /* ContentView.swift */; };
 		1B73360127A1B4EE0024BB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B73360027A1B4EE0024BB36 /* Assets.xcassets */; };
 		1B73360427A1B4EE0024BB36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B73360327A1B4EE0024BB36 /* Preview Assets.xcassets */; };
+		1B73360B27A1C2950024BB36 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73360A27A1C2950024BB36 /* TimeCounter.swift */; };
+		1B73360D27A1C99F0024BB36 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73360C27A1C99F0024BB36 /* RegisterView.swift */; };
+		1B73360F27A1CAA20024BB36 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73360E27A1CAA20024BB36 /* UserManager.swift */; };
+		1B73361127A1CD470024BB36 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73361027A1CD470024BB36 /* StarterView.swift */; };
+		1B73361327A29DAF0024BB36 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73361227A29DAF0024BB36 /* ButtonView.swift */; };
+		1B73361527A2A49B0024BB36 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B73361427A2A49B0024BB36 /* CustomTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B7335F927A1B4EE0024BB36 /* Lesson#3SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson#3SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B7335FC27A1B4EE0024BB36 /* Lesson_3SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_3SwiftUIApp.swift; sourceTree = "<group>"; };
+		1B7335F927A1B4EE0024BB36 /* PWrappersSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWrappersSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7335FC27A1B4EE0024BB36 /* PWrappersSUI App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PWrappersSUI App.swift"; sourceTree = "<group>"; };
 		1B7335FE27A1B4EE0024BB36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B73360027A1B4EE0024BB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B73360327A1B4EE0024BB36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B73360A27A1C2950024BB36 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		1B73360C27A1C99F0024BB36 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		1B73360E27A1CAA20024BB36 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		1B73361027A1CD470024BB36 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		1B73361227A29DAF0024BB36 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		1B73361427A2A49B0024BB36 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +47,7 @@
 		1B7335F027A1B4EE0024BB36 = {
 			isa = PBXGroup;
 			children = (
-				1B7335FB27A1B4EE0024BB36 /* Lesson#3SwiftUI */,
+				1B7335FB27A1B4EE0024BB36 /* PWrappersSUI */,
 				1B7335FA27A1B4EE0024BB36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +55,26 @@
 		1B7335FA27A1B4EE0024BB36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B7335F927A1B4EE0024BB36 /* Lesson#3SwiftUI.app */,
+				1B7335F927A1B4EE0024BB36 /* PWrappersSUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B7335FB27A1B4EE0024BB36 /* Lesson#3SwiftUI */ = {
+		1B7335FB27A1B4EE0024BB36 /* PWrappersSUI */ = {
 			isa = PBXGroup;
 			children = (
-				1B7335FC27A1B4EE0024BB36 /* Lesson_3SwiftUIApp.swift */,
+				1B7335FC27A1B4EE0024BB36 /* PWrappersSUI App.swift */,
+				1B73361027A1CD470024BB36 /* StarterView.swift */,
+				1B73361427A2A49B0024BB36 /* CustomTextView.swift */,
 				1B7335FE27A1B4EE0024BB36 /* ContentView.swift */,
+				1B73361227A29DAF0024BB36 /* ButtonView.swift */,
+				1B73360C27A1C99F0024BB36 /* RegisterView.swift */,
+				1B73360E27A1CAA20024BB36 /* UserManager.swift */,
+				1B73360A27A1C2950024BB36 /* TimeCounter.swift */,
 				1B73360027A1B4EE0024BB36 /* Assets.xcassets */,
 				1B73360227A1B4EE0024BB36 /* Preview Content */,
 			);
-			path = "Lesson#3SwiftUI";
+			path = PWrappersSUI;
 			sourceTree = "<group>";
 		};
 		1B73360227A1B4EE0024BB36 /* Preview Content */ = {
@@ -70,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B7335F827A1B4EE0024BB36 /* Lesson#3SwiftUI */ = {
+		1B7335F827A1B4EE0024BB36 /* PWrappersSUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B73360727A1B4EE0024BB36 /* Build configuration list for PBXNativeTarget "Lesson#3SwiftUI" */;
+			buildConfigurationList = 1B73360727A1B4EE0024BB36 /* Build configuration list for PBXNativeTarget "PWrappersSUI" */;
 			buildPhases = (
 				1B7335F527A1B4EE0024BB36 /* Sources */,
 				1B7335F627A1B4EE0024BB36 /* Frameworks */,
@@ -82,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lesson#3SwiftUI";
+			name = PWrappersSUI;
 			productName = "Lesson#3SwiftUI";
-			productReference = 1B7335F927A1B4EE0024BB36 /* Lesson#3SwiftUI.app */;
+			productReference = 1B7335F927A1B4EE0024BB36 /* PWrappersSUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B7335F427A1B4EE0024BB36 /* Build configuration list for PBXProject "Lesson#3SwiftUI" */;
+			buildConfigurationList = 1B7335F427A1B4EE0024BB36 /* Build configuration list for PBXProject "PWrappersSUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B7335F827A1B4EE0024BB36 /* Lesson#3SwiftUI */,
+				1B7335F827A1B4EE0024BB36 /* PWrappersSUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B73360B27A1C2950024BB36 /* TimeCounter.swift in Sources */,
 				1B7335FF27A1B4EE0024BB36 /* ContentView.swift in Sources */,
-				1B7335FD27A1B4EE0024BB36 /* Lesson_3SwiftUIApp.swift in Sources */,
+				1B73361527A2A49B0024BB36 /* CustomTextView.swift in Sources */,
+				1B73361127A1CD470024BB36 /* StarterView.swift in Sources */,
+				1B73360D27A1C99F0024BB36 /* RegisterView.swift in Sources */,
+				1B73360F27A1CAA20024BB36 /* UserManager.swift in Sources */,
+				1B7335FD27A1B4EE0024BB36 /* PWrappersSUI App.swift in Sources */,
+				1B73361327A29DAF0024BB36 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson#3SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PWrappersSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YU7DP9Q269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lesson#3SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PWrappersSUI/Preview Content\"";
 				DEVELOPMENT_TEAM = YU7DP9Q269;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B7335F427A1B4EE0024BB36 /* Build configuration list for PBXProject "Lesson#3SwiftUI" */ = {
+		1B7335F427A1B4EE0024BB36 /* Build configuration list for PBXProject "PWrappersSUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B73360527A1B4EE0024BB36 /* Debug */,
@@ -331,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B73360727A1B4EE0024BB36 /* Build configuration list for PBXNativeTarget "Lesson#3SwiftUI" */ = {
+		1B73360727A1B4EE0024BB36 /* Build configuration list for PBXNativeTarget "PWrappersSUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B73360827A1B4EE0024BB36 /* Debug */,
