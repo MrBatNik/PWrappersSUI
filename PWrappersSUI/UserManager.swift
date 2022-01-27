@@ -11,6 +11,4 @@ import SwiftUI
 class UserManager: ObservableObject {
     @AppStorage("isRegister") var isRegister = false
     @AppStorage("userName")var name = ""
-    
-    var count = 0
 }
